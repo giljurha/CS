@@ -27,8 +27,71 @@ Intent() - 모델을 변경, model() 새로운 모델로 렌더링, view() UI Ev
 
 MVI 는 MVVM에서 MV와 V부분을 심화한 부분
 V는 그대로 두고 MV에서 Model과 Intent로 심화
+
 MVVM
 Model - Repository(Server, Room)
 View Model - Intent, Model
 View - View
+
+SOLID
+
+S Single Responsibility Principle SRP <br>
+O Open-closed Principle OCP <br>
+L Liskov Substitution Priniciple LSP <br>
+I Interface Segregation Principle ISP <br>
+D Dependency Inversion Principle DIP <br>
+
+DRY 원칙
+
+Don't Repeat Yourself
+
+SRP 하나의 객체에 하나의 책임만 부여한다
+
+OCP 확장에 열려있고, 변경에 닫혀있다
+위반한 예제
+```kotlin
+class Animal(val name: String)
+
+class AnimalSpeaker() {
+  fun speak(animal: Animal) {
+    when(animal.name) {
+      "고양이" -> println("냐옹")
+      "개" -> println("멍멍"
+      }
+    }
+  }
+}
+```
+준수한 예제
+```kotlin
+abstract class Animal( val name: String ) {
+  abstract fun speak()
+}
+class Dog : Animal("개") {
+  override fun speak() = println("멍멍")
+}
+class Lion : Animal("사자") {
+  override fun speak() = println("어흥")
+}
+```
+리스코프 치환 원칙
+
+자식 클래스는 부모 클래스로 대체 가능해야 한다.
+```Java
+Collection<String> collection = new ArrayList<>();
+collection.add("A");
+collection.add("B");
+collection.add("C");
+```
+인터페이스 분리 원칙
+
+목적과 용도에 적합한 인터페이스만을 제공한다
+
+의존성 역전 원칙
+
+
+
+
+
+
 
