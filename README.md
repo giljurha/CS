@@ -106,9 +106,23 @@ collection.add("C");
 
 의존성 역전 원칙
 
+Collection 인터페이스의 메서드
 
+List, Set, Map
 
+List - 순서 o 중복 o, Set - 순서 x 중복 x, Map - 순서 x, 중복 키 x, 값 o
 
+Collect속) 구현
+
+Set 인터페이스 - 순서 x, 중복 x
+
+Set - HashSet, SortedSet( TreeSet은 SortedSet를 상속)
+
+Map 인터페이스 - 순서 x, 중복( 키x, 값 o )
+
+Map - Hashtable, HashMap( LinkedHashMap이 상속 ), SortedMap( TreeMap이 상속 )
+
+Stack - First in last out 선입후출, Queue - First in First out 선입선출
 
 
 
