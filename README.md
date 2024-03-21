@@ -126,7 +126,14 @@
 
 
 <details>
-  <summary>  </summary>
+  <summary> ArrayList </summary>
+
+  List 인터페이스를 구현함으로, 저장 순서가 유지되고, 중복을 허용한다.  
+  List 이름 붙은 애들은 List 인터페이스를 구현했다는 것이다  
+  Vector와 ArrayList의 차이점: ArrayList는 동기화 되어 있지 않음  
+  모든 종류의 객체를 저장할 수 있다  
+  
+  
 </details>
 
 <details>
