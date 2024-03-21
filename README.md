@@ -14,6 +14,7 @@
 
 <details>
   <summary> DDD </summary>
+  
   DDD(Domain Driven Design)  
   추상적 철학, 접근법, 전략적 설계  
   큰 도메인을 작은 도메인으로 나눈다  
@@ -22,6 +23,7 @@
 
 <details>
   <summary> MVI </summary>
+  
   MVI(Model View Intent)    
   M - UI의 상태 로직  
   V - UI  
@@ -35,6 +37,7 @@
 
 <details>
   <summary> MVVM </summary>
+  
   Model - Repository(Server, Room)  
   View Model - Intent, Model  
   View - View  
@@ -42,6 +45,7 @@
 
 <details>
   <summary> SOLID 원칙 </summary>
+  
   S Single Responsibility Principle SRP <br>
   O Open-closed Principle OCP <br>
   L Liskov Substitution Priniciple LSP <br>
@@ -93,12 +97,14 @@
 
 <details>
   <summary> List </summary>
+  
   List - 순서 o 중복 o
 </details>
 
 
 <details>
   <summary> Set </summary>
+  
   Set - 순서 x 중복 x  
   Set - HashSet, SortedSet( TreeSet은 SortedSet를 상속)
 </details>
@@ -106,21 +112,25 @@
 
 <details>
   <summary> Map </summary>
+  
   Map - 순서 x, 중복 (키 x, 값 o)  
   Map - Hashtable, HashMap( LinkedHashMap이 상속 ), SortedMap( TreeMap이 상속 )
 </details>
 
 <details>
   <summary> Stack, Queue </summary>
+  
   Stack - First in last out 선입후출, Queue - First in First out 선입선출
 </details>
 
 <details>
+  
   <summary> Kotlin의 object를 통한 싱글톤, 스레드 세이프한가? </summary>
 </details>
 
 <details>
   <summary> 데이터 클래스란? </summary>
+  
   - 생성자가 아닌 위치에 변수가 선언 됐을 때 발생할 수 있는 문제점
 </details>
 
